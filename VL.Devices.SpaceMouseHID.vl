@@ -190,6 +190,7 @@
                       <p:Value>
                         <Item>0xC652</Item>
                         <Item>0xC62E</Item>
+                        <Item>0xC635</Item>
                       </p:Value>
                     </Pad>
                     <Pad Id="IktYKqtVY3yOP1ZyyRb0l7" Comment="" Bounds="-698,214,217,49" ShowValueBox="true" isIOBox="true">
@@ -204,6 +205,7 @@
                       <p:Value>
                         <Item>SpaceMouse Wireless Universal Receiver</Item>
                         <Item>SpaceMouse Wireless (Connected though USB)</Item>
+                        <Item>SpaceMouse Compact</Item>
                       </p:Value>
                     </Pad>
                     <Pad Id="SVMnV8VowE4OnN3V4XrAXP" Comment="HID Usage: generic multiaxis controller" Bounds="-295,211,35,15" ShowValueBox="true" isIOBox="true" Value="8">
