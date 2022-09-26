@@ -3,8 +3,13 @@
 Use [3DConnexion™](https://3dconnexion.com) SpaceMice in vvvv gamma via HID instead of their driver.
 Uses [HidLibrary](https://github.com/mikeobrien/HidLibrary) by [Mike O'Brien](https://www.mikeobrien.net/). 
 
-Currently only works for [SpaceMouse Wireless®](https://3dconnexion.com/us/product/spacemouse-wireless/).
+Tested only with [SpaceMouse Wireless®](https://3dconnexion.com/us/product/spacemouse-wireless/).
 Either connected through the Universal Receiver (PID C652) or via  USB-cable (PID C62E).
+
+But should work also with Space MouseCompact (PID C635)
+
+Will only work properly if the 3DConnexion™ driver isn’t active, 
+so either uninstall or otherwise make sure it is not running (remove it from autostart for example).
 
 ### Sponsored by 
 ### [Studio JHH](https://www.hansen.ch/)

@@ -38,7 +38,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="H4AK2wJiBV0N5ygZCaLv1G" Bounds="92,305,611,37" ShowValueBox="true" isIOBox="true" Value="¡Currently only works for SpaceMouse Wireless!">
+          <Pad Id="H4AK2wJiBV0N5ygZCaLv1G" Bounds="89,305,617,34" ShowValueBox="true" isIOBox="true" Value="¡Tested only with SpaceMouse Wireless! &#xD;&#xA;">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -47,7 +47,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RY5BPzI2IjCLcFhZ361sHb" Bounds="98,346,606,34" ShowValueBox="true" isIOBox="true" Value=" Either connected through the Universal Receiver (PID C652) or via  USB-cable (PID C62E)&#xD;&#xA;">
+          <Pad Id="RY5BPzI2IjCLcFhZ361sHb" Bounds="89,337,572,19" ShowValueBox="true" isIOBox="true" Value=" Either connected through the Universal Receiver (PID C652) or via  USB-cable (PID C62E)&#xD;&#xA;">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -56,7 +56,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DMwxyaGkAmMLdoybGWEJ10" Bounds="89,450,677,27" ShowValueBox="true" isIOBox="true" Value="https://3dconnexion.com/uk/support/faq/how-can-i-check-if-my-usb-3d-mouse-is-recognized-by-windows/">
+          <Pad Id="DMwxyaGkAmMLdoybGWEJ10" Bounds="89,507,677,27" ShowValueBox="true" isIOBox="true" Value="https://3dconnexion.com/uk/support/faq/how-can-i-check-if-my-usb-3d-mouse-is-recognized-by-windows/">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,13 +65,22 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="ITCywtYAtG4OVm6Z2641EF" Bounds="99,492,347,425" ShowValueBox="true" isIOBox="true" Value="&#xD;&#xA;    Keyboard Pro: USB\VID_256F&amp;PID_C664\…&#xD;&#xA;    Numpad Pro: USB\VID_256F&amp;PID_C665\…&#xD;&#xA;    CadMouse Pro: USB\VID_256F&amp;PID_C656\…&#xD;&#xA;    CadMouse Compact: USB\VID_256F&amp;PID_C655\…&#xD;&#xA;    CadMouse Compact Wireless: USB\VID_256F&amp;PID_C658\…&#xD;&#xA;    CadMouse Pro Wireless: USB\VID_256F&amp;PID_C654\…&#xD;&#xA;    CadMouse Pro Wireless Left:  USB\VID_256F&amp;PID_C657\…&#xD;&#xA;    SpaceMouse Enterprise: USB\VID_256F&amp;PID_C633\…&#xD;&#xA;    CadMouse: USB\VID_256F&amp;PID_C650\…&#xD;&#xA;    CadMouse Wireless: USB\VID_256F&amp;PID_C651\…&#xD;&#xA;    Universal Receiver: USB\VID_256F&amp;PID_C652\…&#xD;&#xA;    SpaceMouse Compact: USB\VID_256F&amp;PID_C635\…&#xD;&#xA;    SpaceMouse Pro Wireless Receiver: USB\VID_256F&amp;PID_C632\…&#xD;&#xA;    SpaceMouse Pro Wireless (cabled): USB\VID_256F&amp;PID_C631\…&#xD;&#xA;    SpaceMouse Wireless Receiver: USB\VID_256F&amp;PID_C62F\…&#xD;&#xA;    SpaceMouse Wireless (cabled): USB\VID_256F&amp;PID_C62E\…&#xD;&#xA;    SpaceMouse Pro: USB\VID_046D&amp;PID_C62B\…&#xD;&#xA;    SpacePilot Pro: USB\VID_046D&amp;PID_C629\…&#xD;&#xA;    SpaceExplorer: USB\VID_046D&amp;PID_C627\…&#xD;&#xA;    SpaceNavigator: USB\VID_046D&amp;PID_C626\…&#xD;&#xA;    SpaceNavigator for Notebooks: USB\VID_046D&amp;PID_C628\…&#xD;&#xA;    SpaceTraveler: USB\VID_046D&amp;PID_C623\…&#xD;&#xA;    SpacePilot: USB\VID_046D&amp;PID_C625\…&#xD;&#xA;    SpaceBall 5000 USB: USB\VID_046D&amp;PID_C621\…&#xD;&#xA;    SpaceMouse Plus USB: USB\VID_046D&amp;PID_C603\…&#xD;&#xA;    SpaceMouse Plus XT USB: USB\VID_046D&amp;PID_C603\…&#xD;&#xA;    SpaceMouse Classic USB: USB\VID_046D&amp;PID_C606\…&#xD;&#xA;    CadMan: USB\VID_046D&amp;PID_C605\…">
+          <Pad Id="ITCywtYAtG4OVm6Z2641EF" Bounds="99,552,347,425" ShowValueBox="true" isIOBox="true" Value="&#xD;&#xA;    Keyboard Pro: USB\VID_256F&amp;PID_C664\…&#xD;&#xA;    Numpad Pro: USB\VID_256F&amp;PID_C665\…&#xD;&#xA;    CadMouse Pro: USB\VID_256F&amp;PID_C656\…&#xD;&#xA;    CadMouse Compact: USB\VID_256F&amp;PID_C655\…&#xD;&#xA;    CadMouse Compact Wireless: USB\VID_256F&amp;PID_C658\…&#xD;&#xA;    CadMouse Pro Wireless: USB\VID_256F&amp;PID_C654\…&#xD;&#xA;    CadMouse Pro Wireless Left:  USB\VID_256F&amp;PID_C657\…&#xD;&#xA;    SpaceMouse Enterprise: USB\VID_256F&amp;PID_C633\…&#xD;&#xA;    CadMouse: USB\VID_256F&amp;PID_C650\…&#xD;&#xA;    CadMouse Wireless: USB\VID_256F&amp;PID_C651\…&#xD;&#xA;    Universal Receiver: USB\VID_256F&amp;PID_C652\…&#xD;&#xA;    SpaceMouse Compact: USB\VID_256F&amp;PID_C635\…&#xD;&#xA;    SpaceMouse Pro Wireless Receiver: USB\VID_256F&amp;PID_C632\…&#xD;&#xA;    SpaceMouse Pro Wireless (cabled): USB\VID_256F&amp;PID_C631\…&#xD;&#xA;    SpaceMouse Wireless Receiver: USB\VID_256F&amp;PID_C62F\…&#xD;&#xA;    SpaceMouse Wireless (cabled): USB\VID_256F&amp;PID_C62E\…&#xD;&#xA;    SpaceMouse Pro: USB\VID_046D&amp;PID_C62B\…&#xD;&#xA;    SpacePilot Pro: USB\VID_046D&amp;PID_C629\…&#xD;&#xA;    SpaceExplorer: USB\VID_046D&amp;PID_C627\…&#xD;&#xA;    SpaceNavigator: USB\VID_046D&amp;PID_C626\…&#xD;&#xA;    SpaceNavigator for Notebooks: USB\VID_046D&amp;PID_C628\…&#xD;&#xA;    SpaceTraveler: USB\VID_046D&amp;PID_C623\…&#xD;&#xA;    SpacePilot: USB\VID_046D&amp;PID_C625\…&#xD;&#xA;    SpaceBall 5000 USB: USB\VID_046D&amp;PID_C621\…&#xD;&#xA;    SpaceMouse Plus USB: USB\VID_046D&amp;PID_C603\…&#xD;&#xA;    SpaceMouse Plus XT USB: USB\VID_046D&amp;PID_C603\…&#xD;&#xA;    SpaceMouse Classic USB: USB\VID_046D&amp;PID_C606\…&#xD;&#xA;    CadMan: USB\VID_046D&amp;PID_C605\…">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <FullNameCategoryReference ID="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AwNvhCnJLizMDxXJVpUmmh" Bounds="103,381,272,19" ShowValueBox="true" isIOBox="true" Value="Usage of buttons and knob is exclusive.">
+          <Pad Id="AwNvhCnJLizMDxXJVpUmmh" Bounds="89,416,709,78" ShowValueBox="true" isIOBox="true" Value="Will only work properly if the 3DConnexion driver isn’t active, &#xD;&#xA;so either uninstall or otherwise make sure it is not running (remove it from autostart for example).&#xD;&#xA;&#xD;&#xA;Usage of buttons and knob is exclusive.&#xD;&#xA;">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PiPLN5AnRv5M73AFVat5GG" Bounds="89,384,378,19" ShowValueBox="true" isIOBox="true" Value="But should work also with SpaceMouse Compact (PID C635)">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
