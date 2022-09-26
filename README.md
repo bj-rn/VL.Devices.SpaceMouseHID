@@ -6,7 +6,7 @@ Uses [HidLibrary](https://github.com/mikeobrien/HidLibrary) by [Mike O'Brien](ht
 Tested only with [SpaceMouse Wireless®](https://3dconnexion.com/us/product/spacemouse-wireless/).
 Either connected through the Universal Receiver (PID C652) or via  USB-cable (PID C62E).
 
-But should work also with Space MouseCompact (PID C635)
+But should work also with SpaceMouse Compact® (PID C635)
 
 Will only work properly if the 3DConnexion™ driver isn’t active, 
 so either uninstall or otherwise make sure it is not running (remove it from autostart for example).
