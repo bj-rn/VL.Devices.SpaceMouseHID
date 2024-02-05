@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>VL.Devices.SpaceMouseHID</id>
-    <version>0.3.1</version>
+    <version>0.3.2</version>
     <title>VL.Devices.SpaceMouseHID</title>
     <authors>bj-rn</authors>
     <owners>bj-rn</owners>
@@ -12,10 +12,10 @@
     <projectUrl>https://github.com/bj-rn/VL.Devices.SpaceMouseHID</projectUrl>
     <summary>Use 3DConnexion SpaceMice via HID</summary>
     <description>Use 3DConnexion SpaceMice via HID instead of their driver. Based on HidLibrary by Mike O'Brien</description>
-    <copyright>Copyright © 2022 bj-rn</copyright>
+    <copyright>Copyright © 2024 bj-rn</copyright>
     <tags>VL, vvvv, 3DConnexion, mouse, space, spacemouse, wireless, HID, HidLibrary</tags>
     <dependencies>
-      <dependency id="hidlibrary" version="3.3.40" />
+      <dependency id="HidLibrary.Unofficial" version="3.3.50" />
     </dependencies>
   </metadata>
    <files>
