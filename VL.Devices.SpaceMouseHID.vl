@@ -352,7 +352,7 @@
                       <Patch Id="NThAk0L2WSMMCDGqbNQLnP" ManuallySortedPins="true">
                         <Patch Id="KfMqw3GTF7HLwyV9iZZmxT" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="KcRPVuKbsomN8ZPntnhPxT" Name="Then" ManuallySortedPins="true" />
-                        <Node Bounds="356,738,220,19" Id="SzEO8esxPrxLgxRJHqLAgJ">
+                        <Node Bounds="356,738,220,26" Id="SzEO8esxPrxLgxRJHqLAgJ">
                           <p:NodeReference LastCategoryFullName="HidLibrary.HidDevice" LastDependency="HidLibrary.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="IsOpen" />
@@ -367,7 +367,7 @@
                             <Choice Kind="TypeFlag" Name="Integer32" />
                           </p:TypeAnnotation>
                         </Pad>
-                        <Node Bounds="356,822,95,19" Id="GA9nlXFDPg6MQwnQUehPHO">
+                        <Node Bounds="356,822,95,26" Id="GA9nlXFDPg6MQwnQUehPHO">
                           <p:NodeReference LastCategoryFullName="HidLibrary.HidDevice" LastDependency="HidLibrary.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="ReadReportAsync" />
@@ -589,7 +589,7 @@
                   <Patch Id="DwjkDWCGb5YLS6DM01hKMc" ManuallySortedPins="true">
                     <Patch Id="MrVBuRDlLh5LOJALRIcBO0" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="UYR0438gyKuPM73KM7Zusv" Name="Then" ManuallySortedPins="true" />
-                    <Node Bounds="244,1141,241,19" Id="AUSqOuej1o0QbAFIvFAu4j">
+                    <Node Bounds="244,1141,241,26" Id="AUSqOuej1o0QbAFIvFAu4j">
                       <p:NodeReference LastCategoryFullName="HidLibrary.HidReport" LastDependency="HidLibrary.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="HidReport" />
@@ -599,7 +599,7 @@
                       <Pin Id="BrGf1KeAAgmOq55QRfcC8k" Name="Output" Kind="StateOutputPin" />
                       <Pin Id="UUnH5NRs2O6Lm1e5lWwgeL" Name="Report Id" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="244,1178,52,19" Id="Gtry2pzvSoyLgmg6nWfPtm">
+                    <Node Bounds="244,1178,52,26" Id="Gtry2pzvSoyLgmg6nWfPtm">
                       <p:NodeReference LastCategoryFullName="HidLibrary.HidReport" LastDependency="HidLibrary.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Data" />
@@ -1333,5 +1333,5 @@
   </Patch>
   <NugetDependency Id="VF855qjSrzeMMKh4xTCkxj" Location="VL.CoreLib" Version="2024.6.0-0103-gc194a3c679" />
   <PlatformDependency Id="Af5nfoCPh9WOhUxJh4DmHT" Location="mscorlib" />
-  <NugetDependency Id="IkBKhSJ8O7TP7Sv7T9VQgo" Location="HidLibrary.Unofficial" Version="3.2.50" />
+  <NugetDependency Id="IkBKhSJ8O7TP7Sv7T9VQgo" Location="HidLibrary.Unofficial" Version="3.3.50" />
 </Document>
