@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="AtII820yGA5PiJ5hvx0ULH" LanguageVersion="2021.4.11.1053" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="AtII820yGA5PiJ5hvx0ULH" LanguageVersion="2024.6.0-0103-gc194a3c679" Version="0.128">
   <Patch Id="MjVNR0OeMckPL2RvVq8GnS">
     <Canvas Id="SssTF9NLgyUOC9F07tn91s" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,11 +15,12 @@
       <Patch Id="KM9heJXOccuMluSr2VnT5P">
         <Canvas Id="KXy3PFcGZfuM9J8j3Qn7by" CanvasType="Group">
           <Node Bounds="99,99,476,19" Id="Me8FoP9rj4PMOAOaVpgrUq">
-            <p:NodeReference LastCategoryFullName="IO.HID" LastSymbolSource="VL.IO.SpaceMouseHID.vl">
+            <p:NodeReference LastCategoryFullName="Devices.HID" LastDependency="VL.Devices.SpaceMouseHID.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SpaceMouse" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="Ct3gpaJ5SRbPnYzbyO9aTO" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="J7g0tRAWiFSMtXjtuH8b0J" Name="Translation" Kind="OutputPin" />
             <Pin Id="CQr8u76j0kWNk3v6ogxVjY" Name="Rotation" Kind="OutputPin" />
             <Pin Id="TT9LauiUpMAMiEbSDrVJor" Name="Left Button" Kind="OutputPin" />
@@ -30,7 +31,7 @@
           <Pad Id="G38H8QbLbEQN7mDe4FRgCw" Comment="Left Button" Bounds="415,178,35,35" ShowValueBox="true" isIOBox="true" />
           <Pad Id="PLbR5sl2bpJN5hJoUnzQcY" Comment="Right Button" Bounds="572,178,35,35" ShowValueBox="true" isIOBox="true" />
           <Pad Id="HkFw3XvOE9YOH9bp4myqGS" Bounds="172,197,64,20" ShowValueBox="true" isIOBox="true" Value="-1 ... 1">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -39,7 +40,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="H4AK2wJiBV0N5ygZCaLv1G" Bounds="89,305,617,34" ShowValueBox="true" isIOBox="true" Value="¡Tested only with SpaceMouse Wireless! &#xD;&#xA;">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -48,7 +49,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="RY5BPzI2IjCLcFhZ361sHb" Bounds="89,337,572,19" ShowValueBox="true" isIOBox="true" Value=" Either connected through the Universal Receiver (PID C652) or via  USB-cable (PID C62E)&#xD;&#xA;">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -57,7 +58,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="DMwxyaGkAmMLdoybGWEJ10" Bounds="89,507,677,27" ShowValueBox="true" isIOBox="true" Value="https://3dconnexion.com/uk/support/faq/how-can-i-check-if-my-usb-3d-mouse-is-recognized-by-windows/">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -66,13 +67,13 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="ITCywtYAtG4OVm6Z2641EF" Bounds="99,552,347,425" ShowValueBox="true" isIOBox="true" Value="&#xD;&#xA;    Keyboard Pro: USB\VID_256F&amp;PID_C664\…&#xD;&#xA;    Numpad Pro: USB\VID_256F&amp;PID_C665\…&#xD;&#xA;    CadMouse Pro: USB\VID_256F&amp;PID_C656\…&#xD;&#xA;    CadMouse Compact: USB\VID_256F&amp;PID_C655\…&#xD;&#xA;    CadMouse Compact Wireless: USB\VID_256F&amp;PID_C658\…&#xD;&#xA;    CadMouse Pro Wireless: USB\VID_256F&amp;PID_C654\…&#xD;&#xA;    CadMouse Pro Wireless Left:  USB\VID_256F&amp;PID_C657\…&#xD;&#xA;    SpaceMouse Enterprise: USB\VID_256F&amp;PID_C633\…&#xD;&#xA;    CadMouse: USB\VID_256F&amp;PID_C650\…&#xD;&#xA;    CadMouse Wireless: USB\VID_256F&amp;PID_C651\…&#xD;&#xA;    Universal Receiver: USB\VID_256F&amp;PID_C652\…&#xD;&#xA;    SpaceMouse Compact: USB\VID_256F&amp;PID_C635\…&#xD;&#xA;    SpaceMouse Pro Wireless Receiver: USB\VID_256F&amp;PID_C632\…&#xD;&#xA;    SpaceMouse Pro Wireless (cabled): USB\VID_256F&amp;PID_C631\…&#xD;&#xA;    SpaceMouse Wireless Receiver: USB\VID_256F&amp;PID_C62F\…&#xD;&#xA;    SpaceMouse Wireless (cabled): USB\VID_256F&amp;PID_C62E\…&#xD;&#xA;    SpaceMouse Pro: USB\VID_046D&amp;PID_C62B\…&#xD;&#xA;    SpacePilot Pro: USB\VID_046D&amp;PID_C629\…&#xD;&#xA;    SpaceExplorer: USB\VID_046D&amp;PID_C627\…&#xD;&#xA;    SpaceNavigator: USB\VID_046D&amp;PID_C626\…&#xD;&#xA;    SpaceNavigator for Notebooks: USB\VID_046D&amp;PID_C628\…&#xD;&#xA;    SpaceTraveler: USB\VID_046D&amp;PID_C623\…&#xD;&#xA;    SpacePilot: USB\VID_046D&amp;PID_C625\…&#xD;&#xA;    SpaceBall 5000 USB: USB\VID_046D&amp;PID_C621\…&#xD;&#xA;    SpaceMouse Plus USB: USB\VID_046D&amp;PID_C603\…&#xD;&#xA;    SpaceMouse Plus XT USB: USB\VID_046D&amp;PID_C603\…&#xD;&#xA;    SpaceMouse Classic USB: USB\VID_046D&amp;PID_C606\…&#xD;&#xA;    CadMan: USB\VID_046D&amp;PID_C605\…">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <FullNameCategoryReference ID="Primitive" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="AwNvhCnJLizMDxXJVpUmmh" Bounds="89,416,709,78" ShowValueBox="true" isIOBox="true" Value="Will only work properly if the 3DConnexion driver isn’t active, &#xD;&#xA;so either uninstall or otherwise make sure it is not running (remove it from autostart for example).&#xD;&#xA;&#xD;&#xA;Usage of buttons and knob is exclusive.&#xD;&#xA;">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -81,7 +82,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="PiPLN5AnRv5M73AFVat5GG" Bounds="89,384,378,19" ShowValueBox="true" isIOBox="true" Value="But should work also with SpaceMouse Compact (PID C635)">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -103,6 +104,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="UtZ6KaKSL04PQ1fZfHU3Ym" Location="VL.CoreLib" Version="2021.4.11-1053-g097be61f93" />
+  <NugetDependency Id="UtZ6KaKSL04PQ1fZfHU3Ym" Location="VL.CoreLib" Version="2024.6.0-0103-gc194a3c679" />
   <DocumentDependency Id="LpuSslRV30FLjzp1OeNdvK" Location="../VL.Devices.SpaceMouseHID.vl" />
 </Document>
